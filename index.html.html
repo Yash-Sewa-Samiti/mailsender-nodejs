@@ -1,0 +1,56 @@
+<html>
+<head>
+  <title>YSS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+span{
+	border-bottom:2px solid #1DA1F2;
+	padding-bottom:1%;
+	box-sizing:border-box;
+}
+#main{width:100vw;
+text-align:center;
+padding-top:40vh;
+}
+#main button{
+width:20%;
+height:8vh;
+}
+</style>
+</head>
+<body>
+<div id="main">
+<center><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#donate">Donate</button></center>
+</div>
+<div class="modal fade" id="donate" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+    <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">
+        <span>&times;</span>
+    </button>
+    <h5 class="modal-title" id="donate"><h3 style="color:#0000ee;"><span>Yash</span> Sewa Samiti</h3></h5>
+    </div>
+    <div class="modal-body">
+    <form>
+        <div class="form-group">
+        <label for="email" class="col-form-label">Email:</label>
+	<input type="text"  class="form-control" placeholder="Enter Your Email" id="email" required><br>
+        <label for="amount" class="col-form-label">Amount:</label>
+        <input type="number" class="form-control" placeholder="Enter Amount" id="amount" required>
+        </div>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+   <button type="submit" class="btn btn-primary">Donate</button>
+    </div>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
