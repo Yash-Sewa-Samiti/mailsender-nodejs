@@ -1,0 +1,22 @@
+{
+  "name": "mailsender-nodejs",
+  "version": "1.0.0",
+  "description": "to send email",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yash-Sewa-Samiti/mailsender-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yash-Sewa-Samiti/mailsender-nodejs/issues"
+  },
+  "homepage": "https://github.com/Yash-Sewa-Samiti/mailsender-nodejs#readme",
+  "dependencies": {
+    "nodemailer": "^6.4.15"
+  }
+}
