@@ -5,7 +5,7 @@ this repo deals with the code through which we would be sending automated thank 
 to test ---------
 
 
-add your credendtials , sender reciver email address
+add your credendtials , sender reciver email address in index.js
 
 secure email by visiting this "https://myaccount.google.com/u/2/lesssecureapps" 
 and switch the button on.
